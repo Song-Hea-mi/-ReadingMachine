@@ -8,16 +8,13 @@ In this Project, I tried to implement a system that converts non-standard docume
 본 프로젝트에서는 이들을 위해 비정형화된 형태의 문서라도 음성으로 변환해 출력하는 시스템을 만들려고 하였다. <br/><br/>
 
 # 1. Setting up the Raspberry Pie for Development
-```
-A. Installing the USB Microphone 
-(link) http://makeshare.org/bbs/board.php?bo_table=raspberrypi&wr_id=76
+A. Installing the USB Microphone <br/>
+(link) http://makeshare.org/bbs/board.php?bo_table=raspberrypi&wr_id=76 <br/><br/>
+B. Configure and Test the Audio <br/>
+(link) https://developers.google.com/assistant/sdk/guides/library/python/embed/audio <br/><br/>
+C. Recording a voice file with the extension raw <br/>
+(link) https://github.com/larsimmisch/pyalsaaudio <br/><br/>
 
-B. Configure and Test the Audio 
-(link) https://developers.google.com/assistant/sdk/guides/library/python/embed/audio
-
-C. Recording a voice file with the extension raw 
-(link) https://github.com/larsimmisch/pyalsaaudio
-```
 # 2. 
 (link) https://cloud.google.com/vision/docs/detecting-text?hl=ko 
 ```
