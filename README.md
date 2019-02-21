@@ -19,6 +19,21 @@ B. Configure and Test the Audio <br/>
 C. Recording a voice file with the extension raw <br/>
 (link) https://github.com/larsimmisch/pyalsaaudio <br/><br/>
 
+D. Installing the camera in a raspberry pie and Taking Pictures <br/>
+(link) https://kocoafab.cc/tutorial/view/334 <br/>
+```
+# pi-camera
+from picamera import PiCamera
+from time import sleep
+
+camera = PiCamera()
+camera.start_preview()
+sleep(7)
+camera.capture(imgDir)
+camera.stop_preview()
+```
+<br/>
+
 # 2. Google Speech-to-Text Client Libraries
 (link) https://cloud.google.com/speech-to-text/docs/reference/libraries?hl=ko#client-libraries-install-python 
 ```{.python}
