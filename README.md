@@ -51,7 +51,7 @@ response = client.recognize(config, audio)
 for result in response.results:
     print('Transcript: {}'.format(result.alternatives[0].transcript))
 ```
-<br/>
+
 # 3. AWS Text-to-Speech Client Libraries
 (link) https://youtu.be/nxzAb9r-u5A <br/><br/>
 A. Create a free account <br/>
