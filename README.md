@@ -57,8 +57,6 @@ for result in response.results:
 A. Create a free account <br/>
 https://aws.amazon.com <br/><br/>
 B. Install Python 3.5 (boto3 available only in Python 3) <br/>
-```{.console} 
-sudo apt-get install python3.5
-```
+```{console} sudo apt-get install python3.5 ```
 
 
