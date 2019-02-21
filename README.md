@@ -57,14 +57,11 @@ for result in response.results:
 ```
 
 # 3. AWS Text-to-Speech Client Libraries
-(link) https://youtu.be/nxzAb9r-u5A <br/><br/>
-
+(link) https://youtu.be/nxzAb9r-u5A <br/>
 A. Create a free account <br/>
-(link) https://aws.amazon.com <br/><br/>
-
+(link) https://aws.amazon.com <br/>
 B. Install Python 3.5 (boto3 available only in Python 3) <br/>
-``` $ sudo apt-get install python3.5``` <br/><br/>
-
+``` $ sudo apt-get install python3.5``` <br/>
 C. Write and run the code <br/>
 ``` $ python3 tts_eng.py``` <br/>
 ```{.python}
