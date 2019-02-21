@@ -95,10 +95,13 @@ def detect_text_uri(uri):
 
 # 4. AWS Text-to-Speech Client Libraries
 (link) https://youtu.be/nxzAb9r-u5A <br/>
+
 A. Create a free account <br/>
-(link) https://aws.amazon.com <br/>
+(link) https://aws.amazon.com <br/><br/>
+
 B. Install Python 3.5 (boto3 available only in Python 3) <br/>
-``` $ sudo apt-get install python3.5``` <br/>
+``` $ sudo apt-get install python3.5``` <br/><br/>
+
 C. Write and run the code <br/>
 ``` $ python3 tts_eng.py``` 
 ```{.python}
@@ -122,4 +125,4 @@ while mixer.music.get_busy() == True:
 
 # 5. Merge the all code
 Check the [readingmachine_ver1.py](https://github.com/Song-Hea-mi/ReadingMachine/blob/master/readingmachine_ver1.py) code <br/>
-![Flow Chart](./flowchart.jpg)<br/>
+![Flow Chart](./flowchart.png)<br/>
