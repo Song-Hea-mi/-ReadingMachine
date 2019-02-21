@@ -1,4 +1,5 @@
 # A Project on the speech conversion system of the informal document
+
 Writing is a form of information that has contributed greatly to the explosive growth of mankind. <br/>
 However, there are people who have difficulty accessing information(Writing) that is visually provided, <br/>
 such as illiterate or visually impaired. <br/>
@@ -8,10 +9,13 @@ In this Project, I tried to implement a system that converts non-standard docume
 본 프로젝트에서는 이들을 위해 비정형화된 형태의 문서라도 음성으로 변환해 출력하는 시스템을 만들려고 하였다. <br/><br/>
 
 # 1. Setting up the Raspberry Pie for Development
+
 A. Installing the USB Microphone <br/>
 (link) http://makeshare.org/bbs/board.php?bo_table=raspberrypi&wr_id=76 <br/><br/>
+
 B. Configure and Test the Audio <br/>
 (link) https://developers.google.com/assistant/sdk/guides/library/python/embed/audio <br/><br/>
+
 C. Recording a voice file with the extension raw <br/>
 (link) https://github.com/larsimmisch/pyalsaaudio <br/><br/>
 
@@ -54,12 +58,15 @@ for result in response.results:
 
 # 3. AWS Text-to-Speech Client Libraries
 (link) https://youtu.be/nxzAb9r-u5A <br/><br/>
+
 A. Create a free account <br/>
 (link) https://aws.amazon.com <br/><br/>
+
 B. Install Python 3.5 (boto3 available only in Python 3) <br/>
 ``` $ sudo apt-get install python3.5``` <br/><br/>
-C. Write code
-``` $ python3 tts_eng.py```
+
+C. Write and run the code <br/>
+``` $ python3 tts_eng.py``` <br/>
 ```{.python}
 import boto3
 from pygame import mixer
@@ -78,3 +85,4 @@ mixer.music.play()
 while mixer.music.get_busy() == True:
     continue
 ```
+<br/>
