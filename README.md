@@ -31,7 +31,6 @@ sleep(7)
 camera.capture(imgDir)
 camera.stop_preview()
 ```
-<br/>
 
 # 2. Google Speech-to-Text Client Libraries
 (link) https://cloud.google.com/speech-to-text/docs/reference/libraries?hl=ko#client-libraries-install-python 
@@ -120,4 +119,7 @@ mixer.music.play()
 while mixer.music.get_busy() == True:
     continue
 ```
-<br/>
+
+# 5. Merge the all code
+Check the [readingmachine_ver1.py](https://github.com/Song-Hea-mi/ReadingMachine/blob/master/readingmachine_ver1.py) code <br/>
+![Flow Chart](./flowchart.jpg)<br/>
