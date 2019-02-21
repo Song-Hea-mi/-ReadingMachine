@@ -9,11 +9,13 @@ In this Project, I tried to implement a system that converts non-standard docume
 
 # 1. Setting up the Raspberry Pie for Development
 ```
-A. Installing the USB Microphone <br/>
+A. Installing the USB Microphone 
 (link) http://makeshare.org/bbs/board.php?bo_table=raspberrypi&wr_id=76
-B. Configure and Test the Audio <br/>
+
+B. Configure and Test the Audio 
 (link) https://developers.google.com/assistant/sdk/guides/library/python/embed/audio
-C. Recording a voice file with the extension raw <br/>
+
+C. Recording a voice file with the extension raw 
 (link) https://github.com/larsimmisch/pyalsaaudio
 ```
 # 2. 
