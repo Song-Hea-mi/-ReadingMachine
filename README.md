@@ -10,7 +10,7 @@ In this Project, I tried to implement a system that converts non-standard docume
 # Using Vision OCR API
 (link) https://cloud.google.com/vision/docs/detecting-text?hl=ko 
 A. Implementing OCR function with internet image address
-'''
+```
 def detect_text_uri(uri):
     """Detects text in the file located in Google Cloud Storage or on the Web.
     """
@@ -23,4 +23,4 @@ def detect_text_uri(uri):
     for text in texts:
         print('\n"{}"'.format(text.description))
 detect_text(‘https://i.stack.imgur.com/t3qWG.png’)
-'''
+```
