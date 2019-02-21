@@ -21,8 +21,7 @@ C. Recording a voice file with the extension raw <br/>
 
 D. Installing the camera in a raspberry pie and Taking Pictures <br/>
 (link) https://kocoafab.cc/tutorial/view/334 <br/>
-```
-# pi-camera
+```{.python}
 from picamera import PiCamera
 from time import sleep
 
@@ -71,14 +70,38 @@ for result in response.results:
     print('Transcript: {}'.format(result.alternatives[0].transcript))
 ```
 
-# 3. AWS Text-to-Speech Client Libraries
+# 3. Google Optical character recognition Client Libraries
+(link) https://cloud.google.com/vision/docs/detecting-text?hl=ko 
+```{.python}
+def detect_text_uri(uri):
+    """Detects text in the file located in Google Cloud Storage or on the Web.
+    """
+    from google.cloud import vision
+    client = vision.ImageAnnotatorClient()
+    image = vision.types.Image()
+    image.source.image_uri = uri
+
+    response = client.text_detection(image=image)
+    texts = response.text_annotations
+    print('Texts:')
+
+    for text in texts:
+        print('\n"{}"'.format(text.description))
+
+        vertices = (['({},{})'.format(vertex.x, vertex.y)
+                    for vertex in text.bounding_poly.vertices])
+
+        print('bounds: {}'.format(','.join(vertices)))
+```
+
+# 4. AWS Text-to-Speech Client Libraries
 (link) https://youtu.be/nxzAb9r-u5A <br/>
 A. Create a free account <br/>
 (link) https://aws.amazon.com <br/>
 B. Install Python 3.5 (boto3 available only in Python 3) <br/>
 ``` $ sudo apt-get install python3.5``` <br/>
 C. Write and run the code <br/>
-``` $ python3 tts_eng.py``` <br/>
+``` $ python3 tts_eng.py``` 
 ```{.python}
 import boto3
 from pygame import mixer
