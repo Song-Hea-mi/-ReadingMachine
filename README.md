@@ -7,10 +7,9 @@ In this Project, I tried to implement a system that converts non-standard docume
 그러나 문맹, 시각장애인 등 시각적으로 제공되는 정에 대한 접근이 어려운 사람들은 우리 주변에 존재한다. <br/>
 본 프로젝트에서는 이들을 위해 비정형화된 형태의 문서일지라도 음성으로 변환해서 출력해주는 시스템을 구현하고자 하였다. <br/><br/>
 
-# Using Vision OCR API
+# 1. Using Vision OCR API
 (link) https://cloud.google.com/vision/docs/detecting-text?hl=ko 
 <br/><br/>
-A. Implementing OCR function with internet image address <br/>
 ```
 def detect_text_uri(uri):
     """Detects text in the file located in Google Cloud Storage or on the Web.
