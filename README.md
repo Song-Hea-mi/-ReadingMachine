@@ -17,7 +17,7 @@ C. Recording a voice file with the extension raw <br/>
 
 # 2. Google Speech-to-Text Client Libraries
 (link) https://cloud.google.com/speech-to-text/docs/reference/libraries?hl=ko#client-libraries-install-python 
-```
+```{.python}
 import io
 import os
 
@@ -57,7 +57,7 @@ for result in response.results:
 A. Create a free account <br/>
 https://aws.amazon.com <br/><br/>
 B. Install Python 3.5 (boto3 available only in Python 3) <br/>
-```console 
+``````{.console} 
 sudo apt-get install python3.5
 ```
 
