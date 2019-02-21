@@ -125,4 +125,4 @@ while mixer.music.get_busy() == True:
 
 # 5. Merge the all code
 Check the [readingmachine_ver1.py](https://github.com/Song-Hea-mi/ReadingMachine/blob/master/readingmachine_ver1.py) code <br/>
-<img src="./flowchart.png" alt="Flow Chart" width="200"/>
+<img src="./flowchart.png" alt="Flow Chart" width="350" align="center"/>
