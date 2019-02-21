@@ -15,7 +15,7 @@ B. Configure and Test the Audio <br/>
 C. Recording a voice file with the extension raw <br/>
 (link) https://github.com/larsimmisch/pyalsaaudio <br/><br/>
 
-# 2. Speech-to-Text Client Libraries
+# 2. Google Speech-to-Text Client Libraries
 (link) https://cloud.google.com/speech-to-text/docs/reference/libraries?hl=ko#client-libraries-install-python 
 ```
 import io
@@ -52,5 +52,11 @@ for result in response.results:
     print('Transcript: {}'.format(result.alternatives[0].transcript))
 ```
 <br/>
-# 2. Speech-to-Text Client Libraries
-(link) https://cloud.google.com/speech-to-text/docs/reference/libraries?hl=ko#client-libraries-install-python 
+# 3. AWS Text-to-Speech Client Libraries
+(link) https://youtu.be/nxzAb9r-u5A <br/><br/>
+A. Create a free account <br/>
+https://aws.amazon.com <br/><br/>
+B. Install Python 3.5 (boto3 available only in Python 3) <br/>
+```sudo apt-get install python3.5```
+
+
