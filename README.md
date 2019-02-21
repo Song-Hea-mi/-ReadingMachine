@@ -58,3 +58,23 @@ A. Create a free account <br/>
 (link) https://aws.amazon.com <br/><br/>
 B. Install Python 3.5 (boto3 available only in Python 3) <br/>
 ``` $ sudo apt-get install python3.5``` <br/><br/>
+C. Write code
+``` $ python3 tts_eng.py```
+```{.python}
+import boto3
+from pygame import mixer
+polly = boto3.client('polly')
+spoken_text = polly.synthesize_speech(Text="Hello, We are Testing TTS",
+                                  OutputFormat='mp3',
+                                  VoiceId='Seoyeon')
+with open(outDir, 'wb') as f:
+    f.write(spoken_text['AudioStream'].read())
+    f.close()
+
+# audio play
+mixer.init()
+mixer.music.load(outDir)
+mixer.music.play()
+while mixer.music.get_busy() == True:
+    continue
+```
