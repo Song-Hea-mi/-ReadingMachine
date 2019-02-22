@@ -8,7 +8,8 @@ You can check the link below to see what I have created. <br/>
 글이란 인류가 폭발적으로 성장하는데 큰 기여를 한 정보 전달 형태다. <br/>
 그러나 문맹, 시각장애인 등 시각적으로 제공되는 글에 대한 접근이 어려운 사람들은 우리 주변에 존재한다. <br/>
 본 프로젝트에서는 이들을 위해 비정형화된 형태의 문서라도 음성으로 변환해 출력하는 시스템을 만들려고 하였다. <br/>
-무엇을 만들었는지는 아래 링크를 확인하면 된다. <br/><br/>
+무엇을 만들었는지는 아래 링크를 확인하면 된다. <br/>
+(link) https://youtu.be/E3W20a6MIgs <br/><br/>
 
 # 1. Setting up the Raspberry Pie for Development
 
